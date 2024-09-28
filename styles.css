@@ -94,3 +94,24 @@ article {
     align-self: flex-start;
     margin-left: 20px;
 }
+
+.user p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.user img:hover {
+    filter:contrast(107.5%);
+    cursor: pointer;
+}
+
+.tag:hover {
+    background-color: hsl(47, 88%, 73%);
+    color: hsl(0, 0%, 10%);
+    cursor: pointer;
+}
+
+h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
